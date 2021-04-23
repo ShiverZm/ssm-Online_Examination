@@ -33,12 +33,12 @@
     <mvc:annotation-driven/>
 
 <!-- 访问拦截器 -->
-    <mvc:interceptors>
-        <mvc:interceptor>
-            <mvc:mapping path="/**"/>
-            <bean class="cn.ganiner.util.LoginInterceptor"/>
-        </mvc:interceptor>-->
-    </mvc:interceptors>
+<!--    <mvc:interceptors>-->
+<!--        <mvc:interceptor>-->
+<!--            <mvc:mapping path="/**"/>-->
+<!--            <bean class="cn.ganiner.util.LoginInterceptor"/>-->
+<!--        </mvc:interceptor>-->
+<!--    </mvc:interceptors>-->
 
 <!--全局异常处理器-->
 
